@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,365.41" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Gabriel\Documents\PAWK\Projets\ManomanoTest\src\test\resources\driver\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Gabriel\Documents\PAWK\Projets\ManomanoTest\target\test-classes;C:\Users\Gabriel\Documents\PAWK\Projets\ManomanoTest\target\classes;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Gabriel\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Gabriel\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Gabriel\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlbeans\xmlbeans\4.0.0\xmlbeans-4.0.0.jar;C:\Users\Gabriel\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Gabriel\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Gabriel\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\Gabriel\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\Gabriel\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\Gabriel\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\Gabriel\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\Gabriel\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\Gabriel\.m2\repository\commons-io\commons-io\1.3.1\commons-io-1.3.1.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\Gabriel\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Gabriel\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\Gabriel\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Gabriel\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Gabriel\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-2\selenium-java-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-2\selenium-edgehtml-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-2\selenium-edge-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-2\selenium-firefox-xpi-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-2\selenium-firefox-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-2\selenium-ie-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-2\selenium-opera-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-2\selenium-safari-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Gabriel\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Gabriel\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-testng\6.10.3\cucumber-testng-6.10.3.jar;C:\Users\Gabriel\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-core\6.10.3\cucumber-core-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-gherkin\6.10.3\cucumber-gherkin-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.3\cucumber-gherkin-messages-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-plugin\6.10.3\cucumber-plugin-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\docstring\6.10.3\docstring-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-java\6.10.3\cucumber-java-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-picocontainer\6.10.3\cucumber-picocontainer-6.10.3.jar;C:\Users\Gabriel\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-2\selenium-api-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-2\selenium-chrome-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-2\selenium-chromium-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-2\selenium-support-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-2\selenium-remote-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\net\bytebuddy\byte-buddy\1.9.12\byte-buddy-1.9.12.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\contrib\opentracing-tracerresolver\0.1.7\opentracing-tracerresolver-0.1.7.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-api\0.33.0\opentracing-api-0.33.0.jar;C:\Users\Gabriel\.m2\repository\com\squareup\okhttp3\okhttp\3.14.0\okhttp-3.14.0.jar;C:\Users\Gabriel\.m2\repository\com\squareup\okio\okio\1.17.2\okio-1.17.2.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-util\0.33.0\opentracing-util-0.33.0.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-noop\0.33.0\opentracing-noop-0.33.0.jar;C:\Users\Gabriel\.m2\repository\org\jetbrains\annotations\21.0.1\annotations-21.0.1.jar;C:\Users\Gabriel\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Gabriel\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Gabriel\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Gabriel\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Gabriel\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Gabriel\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Gabriel\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\Gabriel\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Luanda"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Gabriel\AppData\Local\Temp\surefire8549944584286775197\surefirebooter8163885913497560534.jar C:\Users\Gabriel\AppData\Local\Temp\surefire8549944584286775197 2021-06-08T15-27-19_444-jvmRun1 surefire625437457632811074tmp surefire_07894708753907613182tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Gabriel\Documents\PAWK\Projets\ManomanoTest\target\test-classes;C:\Users\Gabriel\Documents\PAWK\Projets\ManomanoTest\target\classes;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Gabriel\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Gabriel\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Gabriel\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlbeans\xmlbeans\4.0.0\xmlbeans-4.0.0.jar;C:\Users\Gabriel\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Gabriel\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Gabriel\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\Gabriel\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\Gabriel\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\Gabriel\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\Gabriel\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\Gabriel\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\Gabriel\.m2\repository\commons-io\commons-io\1.3.1\commons-io-1.3.1.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\Gabriel\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Gabriel\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\Gabriel\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\Gabriel\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Gabriel\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Gabriel\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-2\selenium-java-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-2\selenium-edgehtml-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-2\selenium-edge-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-2\selenium-firefox-xpi-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-2\selenium-firefox-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-2\selenium-ie-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-2\selenium-opera-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-2\selenium-safari-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Gabriel\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Gabriel\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-testng\6.10.3\cucumber-testng-6.10.3.jar;C:\Users\Gabriel\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-core\6.10.3\cucumber-core-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-gherkin\6.10.3\cucumber-gherkin-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.3\cucumber-gherkin-messages-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-plugin\6.10.3\cucumber-plugin-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\docstring\6.10.3\docstring-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-java\6.10.3\cucumber-java-6.10.3.jar;C:\Users\Gabriel\.m2\repository\io\cucumber\cucumber-picocontainer\6.10.3\cucumber-picocontainer-6.10.3.jar;C:\Users\Gabriel\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-2\selenium-api-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-2\selenium-chrome-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-2\selenium-chromium-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-2\selenium-support-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-2\selenium-remote-driver-4.0.0-alpha-2.jar;C:\Users\Gabriel\.m2\repository\net\bytebuddy\byte-buddy\1.9.12\byte-buddy-1.9.12.jar;C:\Users\Gabriel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\contrib\opentracing-tracerresolver\0.1.7\opentracing-tracerresolver-0.1.7.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-api\0.33.0\opentracing-api-0.33.0.jar;C:\Users\Gabriel\.m2\repository\com\squareup\okhttp3\okhttp\3.14.0\okhttp-3.14.0.jar;C:\Users\Gabriel\.m2\repository\com\squareup\okio\okio\1.17.2\okio-1.17.2.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-util\0.33.0\opentracing-util-0.33.0.jar;C:\Users\Gabriel\.m2\repository\io\opentracing\opentracing-noop\0.33.0\opentracing-noop-0.33.0.jar;C:\Users\Gabriel\.m2\repository\org\jetbrains\annotations\21.0.1\annotations-21.0.1.jar;C:\Users\Gabriel\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Gabriel\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Gabriel\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Gabriel\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Gabriel\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Gabriel\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Gabriel\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\Gabriel\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Gabriel"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="basedir" value="C:\Users\Gabriel\Documents\PAWK\Projets\ManomanoTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Gabriel\AppData\Local\Temp\surefire8549944584286775197\surefirebooter8163885913497560534.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="Gabriel"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Gabriel\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Gabriel\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="C:\Users\Gabriel\Documents\PAWK\Projets\ManomanoTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Gabriel\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Git\usr\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\wamp64\bin\php\php7.4.0;C:\composer;C:\Users\Gabriel\Documents\apache-maven-3.6.3\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Users\Gabriel\Documents\flutter\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\Gabriel\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Gabriel\AppData\Local\Programs\Python\Python38-32\;C:\Users\Gabriel\AppData\Local\Yarn\bin;C:\Users\Gabriel\AppData\Roaming\Composer\vendor\bin;C:\Users\Gabriel\.dotnet\tools;C:\Users\Gabriel\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;The button &quot;Become a partner&quot; returns an error 404&quot;, &quot;Optional[access direct link]&quot;](1)" classname="TestRunner" time="659.217">
+    <system-out><![CDATA[
+@Bug_173_176
+Scenario: The button "Become a partner" returns an error 404 &amp#27;[90m# src/test/resources/features/directLink.feature:4&amp#27;[0m
+salut
+Windows 10
+C:\Users\Gabriel\Documents\PAWK\Projets\ManomanoTest
+driver: ChromeDriver: chrome on WINDOWS (32dd186c153a4b1388538a505eaf53ce)
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mnavigate to affiliate program&amp#27;[0m                        &amp#27;[90m# StepDefinitions.Page404StepDefs.navigateToAffiliatepgram()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclick to button Become a partner&amp#27;[0m                      &amp#27;[90m# StepDefinitions.Page404StepDefs.clickTobuttonBecomeAPartner()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser redirect 404 page error&amp#27;[0m                          &amp#27;[90m# StepDefinitions.Page404StepDefs.userRedirect4040PageError()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 3301
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1623162447.181][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1623162447.184][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1623162448.304][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 08, 2021 3:27:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;The FAQ contact form returns an error&quot;, &quot;Optional[access direct link]&quot;](2)" classname="TestRunner" time="46.944">
+    <system-out><![CDATA[
+@Bug_193
+Scenario: The FAQ contact form returns an error &amp#27;[90m# src/test/resources/features/directLink.feature:10&amp#27;[0m
+salut
+Windows 10
+C:\Users\Gabriel\Documents\PAWK\Projets\ManomanoTest
+driver: ChromeDriver: chrome on WINDOWS (0dca01fd5609258137d2ad014022fc47)
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mFrom the affiliate page&amp#27;[0m                 &amp#27;[90m# StepDefinitions.ErrorFormFAQ.openFAQPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mFill out the form "You have a question"&amp#27;[0m  &amp#27;[90m# StepDefinitions.ErrorFormFAQ.FillOutTheForm()&amp#27;[0m
+test test
+bug non resolu
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msee message error&amp#27;[0m                        &amp#27;[90m# StepDefinitions.ErrorFormFAQ.seeMeesageError()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 5409
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1623163104.746][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1623163104.749][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1623163105.905][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 08, 2021 3:38:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;The &quot;yes&quot; and &quot;no&quot; buttons do not work&quot;, &quot;Optional[access direct link]&quot;](3)" classname="TestRunner" time="147.902">
+    <system-out><![CDATA[
+@Bug_202
+Scenario: The "yes" and "no" buttons do not work &amp#27;[90m# src/test/resources/features/directLink.feature:16&amp#27;[0m
+salut
+Windows 10
+C:\Users\Gabriel\Documents\PAWK\Projets\ManomanoTest
+driver: ChromeDriver: chrome on WINDOWS (30d10bfcd74c2f489681f6b917cd8469)
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mOn the Customer FAQ page&amp#27;[0m                 &amp#27;[90m# StepDefinitions.ButtonDoesNotWorkStepDefs.onTheCustomerFAQPage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mSelect the article&amp#27;[0m                         &amp#27;[90m# StepDefinitions.ButtonDoesNotWorkStepDefs.selectArticle()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mScroll to the "Was this article helpful?"&amp#27;[0m  &amp#27;[90m# StepDefinitions.ButtonDoesNotWorkStepDefs.scrollToTheWasThisarticleHelpful()&amp#27;[0m
+bug non resolu
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mClick either on "Yes" or "No"&amp#27;[0m             &amp#27;[90m# StepDefinitions.ButtonDoesNotWorkStepDefs.ClickEitherOnYesorNo()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 43853
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1623163151.492][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1623163151.495][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1623163152.282][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 08, 2021 3:39:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Redirection to an error page when closing the login form from the FAQ page&quot;, &quot;Optional[access direct link]&quot;](4)" classname="TestRunner" time="439.694">
+    <system-out><![CDATA[
+@Bug_225
+Scenario: Redirection to an error page when closing the login form from the FAQ page &amp#27;[90m# src/test/resources/features/directLink.feature:23&amp#27;[0m
+salut
+Windows 10
+C:\Users\Gabriel\Documents\PAWK\Projets\ManomanoTest
+driver: ChromeDriver: chrome on WINDOWS (295599f08b4809c2725555c618d8edc4)
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mFrom the FAQ page&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.RedirectErrorStepDefs.FromTheFAQPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mSelect "Returns and Refunds"&amp#27;[0m                                                  &amp#27;[90m# StepDefinitions.RedirectErrorStepDefs.SelectReturnsAndRefunds()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mChoose I changed my mind, I no longer want my product (withdrawal)&amp#27;[0m             &amp#27;[90m# StepDefinitions.RedirectErrorStepDefs.chooseIChangedMyMindINoLongerWantMyProductWithdrawal()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Subscribe&amp#27;[0m                                                             &amp#27;[90m# StepDefinitions.RedirectErrorStepDefs.clickOnSubscribe()&amp#27;[0m
+title modal: https://monechelle.zendesk.com/access/normal?return_to=https%3A%2F%2Ffaq.manomano.com%2Fhc%2Ffr%2Farticles%2F360000487367-J-ai-chang%25C3%25A9-d-avis-je-ne-veux-plus-mon-produit-r%25C3%25A9tractation
+bug KO
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mClose the login form using the cross&amp#27;[0m                                          &amp#27;[90m# StepDefinitions.RedirectErrorStepDefs.closeTheLoginFormUsingTheCross()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 47282
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1623163299.459][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1623163299.462][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1623163300.810][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 08, 2021 3:41:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Special characters accepted in the first and last name fields&quot;, &quot;Optional[user manager]&quot;](5)" classname="TestRunner" time="65.539">
+    <system-out><![CDATA[
+@Bug_204
+Scenario: Special characters accepted in the first and last name fields                         &amp#27;[90m# src/test/resources/features/userManager.feature:4&amp#27;[0m
+salut
+Windows 10
+C:\Users\Gabriel\Documents\PAWK\Projets\ManomanoTest
+driver: ChromeDriver: chrome on WINDOWS (cd4820ddba2f84ffbfc9e01f4dbc39eb)
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mgo to the login page&amp#27;[0m                                                                    &amp#27;[90m# StepDefinitions.SetNameAcceptSpecialCharactersStepDefs.goToLoginPage()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mconnect to account&amp#27;[0m                                                                        &amp#27;[90m# StepDefinitions.SetNameAcceptSpecialCharactersStepDefs.login()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclick on My account settings&amp#27;[0m                                                             &amp#27;[90m# StepDefinitions.SetNameAcceptSpecialCharactersStepDefs.clickOnMyaccountSettings()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mGo to My private information&amp#27;[0m                                                              &amp#27;[90m# StepDefinitions.SetNameAcceptSpecialCharactersStepDefs.goToMyPrivateInformation()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter the underscore (_) and period (.) Characters in the Last name and First name fields&amp#27;[0m &amp#27;[90m# StepDefinitions.SetNameAcceptSpecialCharactersStepDefs.enterTheUnderscore_AndPeriodCharactersInTheLastNameAndFirstNameFields()&amp#27;[0m
+name user: .dfdfs
+Bug non resolu
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mClick on Validate&amp#27;[0m                                                                        &amp#27;[90m# StepDefinitions.SetNameAcceptSpecialCharactersStepDefs.clickOnValidate()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 5814
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1623163739.253][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1623163739.257][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1623163740.213][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+juin 08, 2021 3:49:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

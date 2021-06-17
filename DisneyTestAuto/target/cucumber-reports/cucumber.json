@@ -1,0 +1,358 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-17T10:38:48.969Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2775000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Information link for \"ORGANIZING A PROFESSIONAL AND BUSINESS TOURISM EVENT\" returns a 403 error",
+        "description": "",
+        "id": "retest-automation;information-link-for-\"organizing-a-professional-and-business-tourism-event\"-returns-a-403-error",
+        "after": [
+          {
+            "result": {
+              "duration": 828000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14661000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in the home page",
+            "match": {
+              "location": "StepDefinitions.BackgroundStepDefs.gotoHome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 689000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on the Service tab in the footer",
+            "match": {
+              "location": "StepDefinitions.Error_403StepDefs.clickOnTheServiceTabInTheFooter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47207000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Contact us",
+            "match": {
+              "location": "StepDefinitions.Error_403StepDefs.clickOnContactUs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[4]/div[2]/main/div/section[2]/section[1]/h3[3]/p[4]/a[2]\"}\n  (Session info: chrome\u003d91.0.4472.106)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00274.0.0-alpha-2\u0027, revision: \u0027f148142cf8\u0027, time: \u00272019-07-01T20:55:26\u0027\nSystem info: host: \u0027DESKTOP-FVKBK2P\u0027, ip: \u0027192.168.100.3\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\Gabriel\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 32de1eba1943612329aee62627821dbc\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[4]/div[2]/main/div/section[2]/section[1]/h3[3]/p[4]/a[2]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.getAttribute(Unknown Source)\r\n\tat Base.BaseClass.navigateTo(BaseClass.java:52)\r\n\tat PageObject.HomePage.navigateToBusinessTorismLink(HomePage.java:132)\r\n\tat StepDefinitions.Error_403StepDefs.clickBtnLink(Error_403StepDefs.java:23)\r\n\tat ✽.In the Other contacts section under \u0027ORGANIZE A PROFESSIONAL AND BUSINESS TOURISM EVENT\u0027, click on the second \u0027click here\u0027(file:///C:/Users/Gabriel/Documents/PAWK/Projets/DisneyTestAuto/src/test/resources/features/retest.feature:8)\r\n",
+              "duration": 10124000000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "In the Other contacts section under \u0027ORGANIZE A PROFESSIONAL AND BUSINESS TOURISM EVENT\u0027, click on the second \u0027click here\u0027",
+            "match": {
+              "location": "StepDefinitions.Error_403StepDefs.clickBtnLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "see the page 403",
+            "match": {
+              "location": "StepDefinitions.Error_403StepDefs.verifymessageError()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bug_1283"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T10:40:05.414Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1421000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "The connection link to pay for your stay in several installments refers to an error page",
+        "description": "",
+        "id": "retest-automation;the-connection-link-to-pay-for-your-stay-in-several-installments-refers-to-an-error-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1244000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11762000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user in the home page",
+            "match": {
+              "location": "StepDefinitions.BackgroundStepDefs.gotoHome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21726000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on \"See all the advantages\" in the \"Book your stay with confidence\" section",
+            "match": {
+              "location": "StepDefinitions.loginpageNotfoundStepDefs.ClickonSeeAllTheAdvantagesInTheBookyourStay()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16931000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on the \"Find out more\" button in the \"Pay in several installments, free of charge\" section",
+            "match": {
+              "location": "StepDefinitions.loginpageNotfoundStepDefs.clickFindOutMorePayInSeveralInstallements()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12579000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "In \"Payment of the balance\" under \"On your Disney account: easy!\" click on \"Connect\" or on \"Create your own now!\"",
+            "match": {
+              "location": "StepDefinitions.loginpageNotfoundStepDefs.clickOnConnectorOnCreateyourownnow()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16475000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "see message error",
+            "match": {
+              "location": "StepDefinitions.loginpageNotfoundStepDefs.getMessageError()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bug_1118"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T10:41:27.638Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1283000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Harmonize behaviors",
+        "description": "",
+        "id": "retest-automation;harmonize-behaviors",
+        "after": [
+          {
+            "result": {
+              "duration": 1154000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14521000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user in the home page disney.fr",
+            "match": {
+              "location": "StepDefinitions.HarmonizeBehaviorsStepDefs.navigateHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "click in the link social network",
+            "match": {
+              "location": "StepDefinitions.HarmonizeBehaviorsStepDefs.navigateLinkSocialnetwork()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 375000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "link does not redirect directly to the social network page",
+            "match": {
+              "location": "StepDefinitions.HarmonizeBehaviorsStepDefs.linkDoesNotRedirectDirectlyToTheSocialNetworkPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bug_1074"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T10:41:45.003Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1236000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Overlapping menu bar and page title",
+        "description": "",
+        "id": "retest-automation;overlapping-menu-bar-and-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 787000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9622000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user in the home page disney",
+            "match": {
+              "location": "StepDefinitions.OverlappingStepDefs.navigateHome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13910000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "In the footer, click on Privacy rules",
+            "match": {
+              "location": "StepDefinitions.OverlappingStepDefs.navigateToPrivacyRulePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "see Overlapping menu bar and page title",
+            "match": {
+              "location": "StepDefinitions.OverlappingStepDefs.checkPointElement()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bug_1051"
+          }
+        ]
+      }
+    ],
+    "name": "retest automation",
+    "description": "",
+    "id": "retest-automation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/retest.feature",
+    "tags": []
+  }
+]

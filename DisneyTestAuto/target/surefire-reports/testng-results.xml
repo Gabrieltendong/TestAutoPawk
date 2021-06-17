@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DisneyTestAuto" duration-ms="206269" started-at="2021-06-17T11:38:47 WAT" finished-at="2021-06-17T11:42:13 WAT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@4a87761d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Verification Test" duration-ms="206269" started-at="2021-06-17T11:38:47 WAT" finished-at="2021-06-17T11:42:13 WAT">
+      <class name="TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@4a87761d]" name="setUpClass" is-config="true" duration-ms="1111" started-at="2021-06-17T11:38:47 WAT" finished-at="2021-06-17T11:38:48 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@4a87761d]" name="runScenario" duration-ms="76784" started-at="2021-06-17T11:38:48 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-17T11:40:05 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Information link for "ORGANIZING A PROFESSIONAL AND BUSINESS TOURISM EVENT" returns a 403 error"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[retest automation]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div[2]/main/div/section[2]/section[1]/h3[3]/p[4]/a[2]"}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'DESKTOP-FVKBK2P', ip: '192.168.100.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Gabriel\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32de1eba1943612329aee62627821dbc
+*** Element info: {Using=xpath, value=/html/body/div[4]/div[2]/main/div/section[2]/section[1]/h3[3]/p[4]/a[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div[2]/main/div/section[2]/section[1]/h3[3]/p[4]/a[2]"}
+  (Session info: chrome=91.0.4472.106)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
+System info: host: 'DESKTOP-FVKBK2P', ip: '192.168.100.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\Gabriel\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50839}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32de1eba1943612329aee62627821dbc
+*** Element info: {Using=xpath, value=/html/body/div[4]/div[2]/main/div/section[2]/section[1]/h3[3]/p[4]/a[2]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy20.getAttribute(Unknown Source)
+at Base.BaseClass.navigateTo(BaseClass.java:52)
+at PageObject.HomePage.navigateToBusinessTorismLink(HomePage.java:132)
+at StepDefinitions.Error_403StepDefs.clickBtnLink(Error_403StepDefs.java:23)
+at ✽.In the Other contacts section under 'ORGANIZE A PROFESSIONAL AND BUSINESS TOURISM EVENT', click on the second 'click here'(file:///C:/Users/Gabriel/Documents/PAWK/Projets/DisneyTestAuto/src/test/resources/features/retest.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@4a87761d]" name="runScenario" duration-ms="82195" started-at="2021-06-17T11:40:05 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-17T11:41:27 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The connection link to pay for your stay in several installments refers to an error page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[retest automation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@4a87761d]" name="runScenario" duration-ms="17412" started-at="2021-06-17T11:41:27 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-17T11:41:44 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Harmonize behaviors"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[retest automation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@4a87761d]" name="runScenario" duration-ms="25808" started-at="2021-06-17T11:41:44 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-17T11:42:10 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Overlapping menu bar and page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[retest automation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@4a87761d]" name="tearDownClass" is-config="true" duration-ms="2852" started-at="2021-06-17T11:42:10 WAT" finished-at="2021-06-17T11:42:13 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterActivities()[pri:0, instance:TestRunner@4a87761d]" name="afterActivities" is-config="true" duration-ms="1" started-at="2021-06-17T11:42:13 WAT" finished-at="2021-06-17T11:42:13 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActivities -->
+      </class> <!-- TestRunner -->
+    </test> <!-- Verification Test -->
+  </suite> <!-- DisneyTestAuto -->
+</testng-results>

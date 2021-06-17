@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Manomano" duration-ms="1364097" started-at="2021-06-08T15:27:21 WAT" finished-at="2021-06-08T15:50:05 WAT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@4d3167f4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Verification Test" duration-ms="1364097" started-at="2021-06-08T15:27:21 WAT" finished-at="2021-06-08T15:50:05 WAT">
+      <class name="TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@4d3167f4]" name="setUpClass" is-config="true" duration-ms="985" started-at="2021-06-08T15:27:21 WAT" finished-at="2021-06-08T15:27:22 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@4d3167f4]" name="runScenario" duration-ms="658972" started-at="2021-06-08T15:27:22 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-08T15:38:21 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The button "Become a partner" returns an error 404"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[access direct link]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@4d3167f4]" name="runScenario" duration-ms="46600" started-at="2021-06-08T15:38:21 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-08T15:39:08 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The FAQ contact form returns an error"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[access direct link]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@4d3167f4]" name="runScenario" duration-ms="148123" started-at="2021-06-08T15:39:08 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-08T15:41:36 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The "yes" and "no" buttons do not work"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[access direct link]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@4d3167f4]" name="runScenario" duration-ms="439564" started-at="2021-06-08T15:41:36 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-08T15:48:56 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Redirection to an error page when closing the login form from the FAQ page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[access direct link]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@4d3167f4]" name="runScenario" duration-ms="65836" started-at="2021-06-08T15:48:56 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-08T15:50:02 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Special characters accepted in the first and last name fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[user manager]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@4d3167f4]" name="tearDownClass" is-config="true" duration-ms="3890" started-at="2021-06-08T15:50:02 WAT" finished-at="2021-06-08T15:50:05 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner -->
+    </test> <!-- Verification Test -->
+  </suite> <!-- Manomano -->
+</testng-results>

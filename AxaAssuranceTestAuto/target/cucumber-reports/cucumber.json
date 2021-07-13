@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-13T06:03:18.847Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23939000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.setup()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Simulation naming problem",
+        "description": "",
+        "id": "direct-link-to-the-pages;simulation-naming-problem",
+        "after": [
+          {
+            "result": {
+              "duration": 8376000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.CucumberHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24412000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "go to credit simulator page",
+            "match": {
+              "location": "StepDefinitions.Bug_842StepDefs.opensimulatorPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 700000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Click on the plus + to create a new simulation",
+            "match": {
+              "location": "StepDefinitions.Bug_842StepDefs.createSimulator()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1108000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Delete simulation n ° 1",
+            "match": {
+              "location": "StepDefinitions.Bug_842StepDefs.deleteSimulator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17980000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Create two new simulations and compare name",
+            "match": {
+              "location": "StepDefinitions.Bug_842StepDefs.createTwoSimulatorAndCompareName()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Direct link to the pages",
+    "description": "",
+    "id": "direct-link-to-the-pages",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/directLink.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Disney" duration-ms="83999" started-at="2021-07-13T07:03:16 WAT" finished-at="2021-07-13T07:04:40 WAT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@4d3167f4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Verification Test" duration-ms="83999" started-at="2021-07-13T07:03:16 WAT" finished-at="2021-07-13T07:04:40 WAT">
+      <class name="TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner@4d3167f4]" name="setUpClass" is-config="true" duration-ms="1379" started-at="2021-07-13T07:03:16 WAT" finished-at="2021-07-13T07:03:17 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner@4d3167f4]" name="runScenario" duration-ms="77720" started-at="2021-07-13T07:03:17 WAT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-07-13T07:04:35 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Simulation naming problem"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Direct link to the pages]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner@4d3167f4]" name="tearDownClass" is-config="true" duration-ms="4763" started-at="2021-07-13T07:04:35 WAT" finished-at="2021-07-13T07:04:40 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner -->
+    </test> <!-- Verification Test -->
+  </suite> <!-- Disney -->
+</testng-results>
